@@ -1,0 +1,155 @@
+html {
+    color: rgb(140, 207, 140);
+}
+body {
+    overflow:hidden;
+}
+
+.Pomodoro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #000205 50%, #344e32 100%);
+    
+}
+
+.pomodoroText {
+    position: absolute;
+    top: 15px;
+    left: -50%;
+    right: -50%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 10px rgb(140, 207, 140);
+    font-family: cursive;
+    cursor:crosshair;
+}
+
+.types button {
+    padding: 1.2rem;
+    margin: 1rem;
+    border-radius: 25px 0 25px 0;
+    text-align: center;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 1.2rem;
+    border: 0;
+}
+
+.types button.start {
+    background-color: rgb(140, 207, 140);
+    box-shadow: 1.5px 1.5px 10px rgb(140, 207, 140);
+}
+
+.types button.start:hover {
+    background-color: rgba(140, 207, 140, 0.95);
+    box-shadow: 2.5px 2.5px 10px rgb(140, 207, 140);
+}
+
+.types button.start:active {
+    transform: scale(0.9);
+}
+
+.types button.short {
+    background-color: rgb(147, 140, 207);
+    box-shadow: 1.5px 1.5px 10px rgb(147, 140, 207);
+}
+
+.types button.short:hover {
+    background-color: rgba(147, 140, 207, 0.95);
+    box-shadow: 2.5px 2.5px 10px rgb(147, 140, 207);
+}
+
+.types button.short:active {
+    transform: scale(0.9);
+}
+
+.types button.long {
+    background-color: rgb(121, 183, 207);
+    box-shadow: 1.5px 1.5px 10px rgb(121, 183, 207);
+}
+
+.types button.long:hover {
+    background-color: rgba(121, 183, 207, 0.95);
+    box-shadow: 2.5px 2.5px 10px rgb(121, 183, 207);
+}
+
+.types button.long:active {
+    transform: scale(0.9);
+}
+
+.controls.active button {
+    width: 5.5rem;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 1.2rem;
+    border: 0;
+    visibility: visible;
+} 
+
+.controls button {
+   visibility: hidden;
+} 
+
+.play {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.5px 1.5px 10px rgb(255, 255, 255);
+}
+
+.play:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 2.5px 2.5px 10px rgb(255, 255, 255);
+}
+.play:active {
+    transform: scale(0.9);
+}
+
+.fa-stop {
+    background-color: rgba(51, 50, 50, 0.6);
+    box-shadow: 1.5px 1.5px 10px rgb(75, 75, 75);
+    color: white;
+}
+
+.fa-stop:hover {
+    background-color: rgba(51, 50, 50, .65);
+    box-shadow: 2.5px 2.5px 10px rgb(75, 75, 75);
+}
+.fa-stop:active {
+    transform: scale(0.9);
+}
+
+
+
+.timer {
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+    text-shadow: 1.5px 1.5px 10px white;
+}
+
+.alert {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.work 
+{
+    color: rgb(140, 207, 140);
+    text-shadow: 1.5px 1.5px 10px rgb(140, 207, 140);
+}
+.shortBreak 
+{
+    color: rgb(147, 140, 207);
+    text-shadow: 1.5px 1.5px 10px rgb(147, 140, 207);
+}
+.longBreak 
+{
+    color: rgb(121, 183, 207);
+    text-shadow: 1.5px 1.5px 10px rgb(121, 183, 207);
+}

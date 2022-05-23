@@ -1,0 +1,78 @@
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(235, 228, 228);
+    font-size: 1.6rem;
+}
+
+.Crypto {
+    margin: 0 auto;
+    border: 1px solid blue;
+    padding: 2rem;
+    max-width: 100rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 255, 0.2);
+    box-shadow: 2px 2px 15px blue;
+}
+
+.Crypto h1 {
+    margin-bottom: 5rem;
+    padding: 0 2rem;
+}
+
+.Crypto form div{
+    padding: 0 2rem;
+}
+.Crypto form div input{
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 20%;
+    margin-left: 5rem;
+    outline: 0;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.Crypto form div input:active,
+.Crypto form div input:focus {
+    outline: 0;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.Crypto form div label{
+    text-align: center;
+    font-size: 2rem;
+    width: 20%;
+}
+
+
+.Crypto h3 {
+    margin: 3rem;
+}
+.Crypto p {
+    margin: 3rem;
+}
+.Crypto p span {
+    color: green;
+    font-weight: bold;
+}
+
+.Crypto h3 span {
+    color: blue;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
